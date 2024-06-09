@@ -50,7 +50,7 @@ namespace Wpf_DAMA
 
             // Bílý
             for (int radek = 5; radek < 8; radek++)
-            {
+            {   
                 int prvniSloupek = 0;
                 if (radek % 2 == 0)
                 {
@@ -94,11 +94,9 @@ namespace Wpf_DAMA
                     nabidka1.Visibility = Visibility.Visible;
                     if (bily_hrac)
                     {
-                        if (damaBila[radek, sloupek] || radek == 0) // Dama nebo figurka na konci
+                        if (damaBila[radek, sloupek] || radek == 0)
                         {
                             nabidka1.Visibility = Visibility.Hidden;
-                            // Add movement logic for dama
-                            // Move up-left
                             if (radek - 1 >= 0 && sloupek - 1 >= 0 && !sachovniceBila[radek - 1, sloupek - 1] && !sachovniceCerna[radek - 1, sloupek - 1])
                             {
                                 nabidka1.Visibility = Visibility.Visible;
@@ -130,11 +128,9 @@ namespace Wpf_DAMA
                     }
                     else //hraje cerny hrac
                     {
-                        if (damaCerna[radek, sloupek] || radek == maxRadek - 1) // Dama nebo figurka na konci
+                        if (damaCerna[radek, sloupek] || radek == maxRadek - 1)
                         {
                             nabidka1.Visibility = Visibility.Hidden;
-                            // Add movement logic for dama
-                            // Move down-left
                             if (radek + 1 < maxRadek && sloupek - 1 >= 0 && !sachovniceBila[radek + 1, sloupek - 1] && !sachovniceCerna[radek + 1, sloupek - 1])
                             {
                                 nabidka1.Visibility = Visibility.Visible;
