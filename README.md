@@ -1,1 +1,5 @@
-"# dama" 
+# Dáma
+
+Při spuštění projektu se zobrazí šachovnice 8x8 s vygenerovanými černými a bílými figurkami podle pravidel dámy. Uživatel vidí napsáno, jaký hráč táhne a ten vybere figurku, kterou chce táhnout a poté mu to nabídne možnosti, kam se může posunout. Vše je ošetřeno tak, aby se hráč nemohl posunout na políčko před sebou, ale jen šikmo, také se nemůže posunout na místo jiné figurky. Při přeskočení soupeře se přeskočená figurka odebere. Tahy hráču se střídají, v mém projektu hrají dva hráči u jednoho počítače proti sobě.
+
+Šachovnice je vytvořena pomocí gridu, figurky jsou ellipsy a jsou rozmístěny do šachovnice podle sloupku a řádku. V kódu poté při spuštění vygeneruju v metodě VytvorPole dvojrozměrné pole typu bool pro bílé a černé figurky. Pokud políčko obsahuje figurku, je to true, jinak false. Při kliknutí na figurku se zavolá metoda Vyber, která nastaví podle podmínek pozici nabídky na místa kam se může hráč pohnout. Při kliknutí na ellipsu nabídky se zavolá metoda Posun, ktera vybranou figurku posune na nové místo, tedy na pozici nabídky, v této metodě se volá metoda Zmizeni, která slouží na odebrání přeskočené figurky. Každý pohyb přepisuje hodnotu bool dvojrozměrného pole na true nebo false. Po kazdem tahu se také změní promenna, ktera urcuje jaky hráč táhne.
