@@ -1,0 +1,156 @@
+﻿<Window x:Class="Wpf_DAMA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_DAMA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Window.Resources>
+        <Style TargetType="Ellipse">
+            <Setter Property="Width" Value="30"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Fill" Value="Black"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Gray" Direction="200" ShadowDepth="1" Opacity="1"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#B6876B"/>
+        <Rectangle Grid.Row="0" Grid.Column="2" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="0" Grid.Column="3" Fill="#B6876B"/>
+        <Rectangle Grid.Row="0" Grid.Column="4" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="0" Grid.Column="5" Fill="#B6876B"/>
+        <Rectangle Grid.Row="0" Grid.Column="6" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="0" Grid.Column="7" Fill="#B6876B"/>
+
+        <Rectangle Grid.Row="1" Grid.Column="0" Fill="#B6876B"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="1" Grid.Column="2" Fill="#B6876B"/>
+        <Rectangle Grid.Row="1" Grid.Column="3" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="1" Grid.Column="4" Fill="#B6876B"/>
+        <Rectangle Grid.Row="1" Grid.Column="5" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="1" Grid.Column="6" Fill="#B6876B"/>
+        <Rectangle Grid.Row="1" Grid.Column="7" Fill="#F6DFC0"/>
+
+        <Rectangle Grid.Row="2" Grid.Column="0" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="2" Grid.Column="1" Fill="#B6876B"/>
+        <Rectangle Grid.Row="2" Grid.Column="2" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="2" Grid.Column="3" Fill="#B6876B"/>
+        <Rectangle Grid.Row="2" Grid.Column="4" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="2" Grid.Column="5" Fill="#B6876B"/>
+        <Rectangle Grid.Row="2" Grid.Column="6" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="2" Grid.Column="7" Fill="#B6876B"/>
+
+        <Rectangle Grid.Row="3" Grid.Column="0" Fill="#B6876B" />
+        <Rectangle Grid.Row="3" Grid.Column="1" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="3" Grid.Column="2" Fill="#B6876B"/>
+        <Rectangle Grid.Row="3" Grid.Column="3" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="3" Grid.Column="4" Fill="#B6876B"/>
+        <Rectangle Grid.Row="3" Grid.Column="5" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="3" Grid.Column="6" Fill="#B6876B"/>
+        <Rectangle Grid.Row="3" Grid.Column="7" Fill="#F6DFC0"/>
+
+        <Rectangle Grid.Row="4" Grid.Column="0" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="4" Grid.Column="1" Fill="#B6876B"/>
+        <Rectangle Grid.Row="4" Grid.Column="2" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="4" Grid.Column="3" Fill="#B6876B"/>
+        <Rectangle Grid.Row="4" Grid.Column="4" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="4" Grid.Column="5" Fill="#B6876B"/>
+        <Rectangle Grid.Row="4" Grid.Column="6" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="4" Grid.Column="7" Fill="#B6876B"/>
+
+        <Rectangle Grid.Row="5" Grid.Column="0" Fill="#B6876B"/>
+        <Rectangle Grid.Row="5" Grid.Column="1" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="5" Grid.Column="2" Fill="#B6876B"/>
+        <Rectangle Grid.Row="5" Grid.Column="3" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="5" Grid.Column="4" Fill="#B6876B"/>
+        <Rectangle Grid.Row="5" Grid.Column="5" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="5" Grid.Column="6" Fill="#B6876B"/>
+        <Rectangle Grid.Row="5" Grid.Column="7" Fill="#F6DFC0"/>
+
+        <Rectangle Grid.Row="6" Grid.Column="0" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="6" Grid.Column="1" Fill="#B6876B"/>
+        <Rectangle Grid.Row="6" Grid.Column="2" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="6" Grid.Column="3" Fill="#B6876B"/>
+        <Rectangle Grid.Row="6" Grid.Column="4" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="6" Grid.Column="5" Fill="#B6876B"/>
+        <Rectangle Grid.Row="6" Grid.Column="6" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="6" Grid.Column="7" Fill="#B6876B"/>
+
+        <Rectangle Grid.Row="7" Grid.Column="0" Fill="#B6876B"/>
+        <Rectangle Grid.Row="7" Grid.Column="1" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="7" Grid.Column="2" Fill="#B6876B"/>
+        <Rectangle Grid.Row="7" Grid.Column="3" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="7" Grid.Column="4" Fill="#B6876B"/>
+        <Rectangle Grid.Row="7" Grid.Column="5" Fill="#F6DFC0"/>
+        <Rectangle Grid.Row="7" Grid.Column="6" Fill="#B6876B"/>
+        <Rectangle Grid.Row="7" Grid.Column="7" Fill="#F6DFC0"/>
+
+
+        <Ellipse Grid.Row="0" Grid.Column="1" Name="cerne1" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="0" Grid.Column="3" Name="cerne2" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="0" Grid.Column="5" Name="cerne3" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="0" Grid.Column="7" Name="cerne4" MouseLeftButtonDown="Vyber"/>
+
+        <Ellipse Grid.Row="1" Grid.Column="0" Name="cerne5" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="1" Grid.Column="2" Name="cerne6" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="1" Grid.Column="4" Name="cerne7" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="1" Grid.Column="6" Name="cerne8" MouseLeftButtonDown="Vyber"/>
+
+        <Ellipse Grid.Row="2" Grid.Column="1" Name="cerne9" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="2" Grid.Column="3" Name="cerne10" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="2" Grid.Column="5" Name="cerne11" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="2" Grid.Column="7" Name="cerne12" MouseLeftButtonDown="Vyber"/>
+
+
+        <Ellipse Grid.Row="5" Grid.Column="0" Name="bile1" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="5" Grid.Column="2" Name="bile2" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="5" Grid.Column="4" Name="bile3" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="5" Grid.Column="6" Name="bile4" Fill="White" MouseLeftButtonDown="Vyber"/>
+
+        <Ellipse Grid.Row="6" Grid.Column="1" Name="bile5" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="6" Grid.Column="3" Name="bile6" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="6" Grid.Column="5" Name="bile7" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="6" Grid.Column="7" Name="bile8" Fill="White" MouseLeftButtonDown="Vyber"/>
+
+        <Ellipse Grid.Row="7" Grid.Column="0" Name="bile9" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="7" Grid.Column="2" Name="bile10" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="7" Grid.Column="4" Name="bile11" Fill="White" MouseLeftButtonDown="Vyber"/>
+        <Ellipse Grid.Row="7" Grid.Column="6" Name="bile12" Fill="White" MouseLeftButtonDown="Vyber"/>
+
+        <Ellipse x:Name="nabidka1" Fill="Red" Width="20" Height="20" Visibility="Hidden" MouseLeftButtonDown="Posun"/>
+        <Ellipse x:Name="nabidka2" Fill="Red" Width="20" Height="20" Visibility="Hidden" MouseLeftButtonDown="Posun"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="44,3,0,0" Grid.Row="8" TextWrapping="Wrap" Text="Bílá" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="108" Name="Hrac"/>
+        <TextBlock HorizontalAlignment="Left" Margin="13,3,0,0" Grid.Row="8" TextWrapping="Wrap" Text="Tah:" VerticalAlignment="Top" Width="26"/>
+
+    </Grid>
+</Window>
+    
